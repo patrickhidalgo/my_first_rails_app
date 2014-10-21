@@ -1,0 +1,7 @@
+<% if params[:name1] && params[:name2] %>
+  Hello <%= params[:name1].capitalize %>, have you met <%= params[:name2].capitalize%>?
+  <%= params[:name2].capitalize %>, this is <%= params[:name1].capitalize %>.
+<% else %>
+  Put in some names in 'http://localhost:3000/introduce/ginger/and/logan' format
+  and get a secret message.
+<% end %>

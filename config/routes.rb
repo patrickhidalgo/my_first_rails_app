@@ -3,5 +3,9 @@ Rails.application.routes.draw do
 
   get 'hello/:name' => 'welcome#hello'
 
-  get 'time/now' => 'time#time_now'
+  get 'time/now' => 'time#hello'
+
+  get 'introduce' => 'introduce#hello'
+
+  get 'introduce/:name1/and/:name2' => 'introduce#hello'
 end

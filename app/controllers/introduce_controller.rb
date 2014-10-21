@@ -1,0 +1,3 @@
+class IntroduceController < ApplicationController
+
+end
